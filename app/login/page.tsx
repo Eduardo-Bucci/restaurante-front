@@ -19,6 +19,11 @@ export default function Login(){
             router.push("/admin")
             return
         }
+        else{
+            localStorage.setItem(usuario, senha)
+            router.push("/cardapio")
+            return
+        }
         Swal.fire({
             title:"Login inválido",
             text:"Usuário ou senha incorretos",
