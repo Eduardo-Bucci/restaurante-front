@@ -50,7 +50,7 @@ export default function AdminPage(){
         <Navbar />
         <main className="min-h-screen bg-gray-100 P-8">
             
-            <div className="mx-auto max-w-xl rounded-lg bg-white p-8 shadow">
+            <div className="mx-auto max-w-xl rounded-lg bg-zinc-500 p-8 shadow">
                 <h1 className="mb-6 text-3xl font-bold">Cadastrar Lanche</h1>
                 <form onSubmit={cadastrarLanche} className="space-y-5">
                     
@@ -95,6 +95,7 @@ export default function AdminPage(){
                         onChange={(e)=> setImagem(e.target.value)}
                         placeholder="Insira o link da imagem"
                         className="w-full rounded border p-3"
+                        unoptimized
                         />
                     </div>
 

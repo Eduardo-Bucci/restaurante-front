@@ -109,9 +109,11 @@ export default function CardapioAdmin(){
                                     <Image
                                     src={produto.imagem}
                                     alt={produto.descricao}
-                                    width={400}
+                                    width={200}
                                     height={200}    
-                                    className="h-48 w-full object-contain"/>
+                                    className="h-48 w-full object-contain"
+                                    unoptimized
+                                    />
                                 )}
 
                                 <div className="p-5">

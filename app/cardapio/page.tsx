@@ -55,9 +55,10 @@ export default function CardapioPage() {
               <Image
                 src={produto.imagem}
                 alt={produto.descricao}
-                width={400}
+                width={250}
                 height={250}
                 className="h-40 w-full rounded object-contain"
+                unoptimized
               />
 
               <h2 className="mt-3 text-xl font-semibold">
