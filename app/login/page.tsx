@@ -21,7 +21,7 @@ export default function Login(){
         }
         else{
             localStorage.setItem(usuario, senha)
-            router.push("/cardapio")
+            router.push("./sobre")
             return
         }
         Swal.fire({
